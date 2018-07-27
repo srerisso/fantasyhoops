@@ -1,0 +1,12 @@
+{
+  "name": "fantasyhoops",
+  "version": "1.0.0",
+  "description": "fantasy hoops bulma",
+  "main": "index.html",
+  "author": "sr erisso",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "font-awesome": "^4.7.0"
+  }
+}

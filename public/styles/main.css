@@ -8434,4 +8434,11 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.frontmancheck {
+  background-image: url("../images/pexels-photo-305244.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
 /*# sourceMappingURL=main.css.map */
