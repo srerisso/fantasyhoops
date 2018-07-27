@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="vendors/bulma/css/bulma.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <title>fantasy hoops</title>
+  </head>
+  <body>
+
+
+  <!-- navbar -->
+  <nav class="navbar is-link">
+    <div class="navbar-brand">
+      <a href="#" class="navbar-item"><h1 class="is-2">Fan Hoops</h1></a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="navMenu">
+      <!-- navbar-start, navbar-end... -->
+      <div class="navbar-start">
+        <div href="" class="navbar-item has-dropdown is-hoverable">
+          <a href="" class="navbar-link">Stats</a>
+          <div class="navbar-dropdown">
+            <a href="" class="navbar-item">Player stats</a>
+          </div>
+        </div>
+
+        <div href="" class="navbar-item has-dropdown is-hoverable">
+          <a href="" class="navbar-link">The game</a>
+          <div class="navbar-dropdown">
+            <a href="" class="navbar-item">Rules</a>
+            <a href="" class="navbar-item">Terms and conditions</a>
+          </div>
+        </div>
+      </div> <!-- navbar-star -->
+
+      <div class="navbar-end">
+        <a href="" class="navbar-item"><i class="fa fa-search"></i> &nbsp; Search</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="" class="navbar-link">Hello joe1974</a>
+
+          <div class="navbar-dropdown">
+            <a href="" class="navbar-item">Your profile</a>
+            <a href="" class="navbar-item">Your teams</a>
+            <div class="navbar-divider"></div>
+
+          </div>
+        </div>
+      </div> <!-- navbar-end -->
+    </div>
+
+  </nav>
+
+  <!-- Main container -->
+  <section class="hero is-light is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Fantasy Hoops
+        </h1>
+        <h2 class="subtitle">
+          More than a game. A data game.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-large">
+    <div class="hero-body">
+      <div class="container">
+      </div>
+    </div>
+  </section>
+
+
+<!-- footer -->
+<footer class="footer">
+  <div class="content">
+    <p>
+      <strong>Fantasy Hoops</strong> by <a href="https://www.erisso.com">sr. erisso</a>.
+    </p>
+  </div>
+</footer>
+<!-- some javascript here -->
+
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+console.log("Navba burger present");
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+    });
+  </script>
+
+  </body>
+</html>
