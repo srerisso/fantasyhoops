@@ -1,5 +1,8 @@
 @charset "UTF-8";
-/* customizations go above this line */
+/* Coolors Exported Palette - coolors.co/e55c24-034732-008148-c6c013-ef2917 */
+/* HSL */
+/* RGB */
+/* Import Bulma styles. Customizations go above this line */
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -5721,7 +5724,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: #3273dc;
+  color: #e55c24;
 }
 
 .navbar-item {
@@ -5766,7 +5769,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
   padding-right: 2.5em;
 }
 .navbar-link::after {
-  border-color: #3273dc;
+  border-color: #e55c24;
   margin-top: -0.375em;
   right: 1.125em;
 }
@@ -5875,7 +5878,7 @@ body.has-navbar-fixed-bottom-touch {
     background-color: transparent !important;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
-    background-color: whitesmoke;
+    background-color: #e55c24;
     color: #0a0a0a;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
@@ -5956,7 +5959,7 @@ body.has-navbar-fixed-bottom-touch {
     padding-right: 3rem;
   }
   .navbar-dropdown a.navbar-item:hover {
-    background-color: whitesmoke;
+    background-color: #e55c24;
     color: #0a0a0a;
   }
   .navbar-dropdown a.navbar-item.is-active {
@@ -8430,7 +8433,7 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: #fafafa;
+  background-color: #e55c24;
   padding: 3rem 1.5rem 6rem;
 }
 

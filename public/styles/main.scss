@@ -1,5 +1,11 @@
+@import './fanhoops_palette.scss';
 
-/* customizations go above this line */
+$footer-background-color: $color1;
+$navbar-dropdown-arrow: $color1;
+$navbar-item-hover-color: $color1;
+$navbar-dropdown-item-hover-background-color: $color1;
+
+/* Import Bulma styles. Customizations go above this line */
 @import "../vendors/bulma/bulma.sass";
 
 .frontmancheck {
